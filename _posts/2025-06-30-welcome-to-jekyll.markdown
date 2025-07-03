@@ -1,29 +1,31 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Playcraft AI"
 date:   2025-06-30 13:03:39 -0700
-categories: jekyll update
+categories: launch
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Welcome to **Playcraft AI** — where gameplay meets generative intelligence.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+We're a consulting and R&D practice helping mobile game studios boost *player retention and lifetime value (LTV)* using **on-device machine learning**.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+### Why On-Device AI?
 
-Jekyll also offers powerful support for code snippets:
+Most studios today are investing in backend AI services, but we believe the future is distributed:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+- No server costs for inference — your users' devices handle the compute.
+- Faster response times and offline support.
+- Reduced bandwidth and backend infrastructure expenses.
+- Personalized models trained privately and locally — better UX and data privacy.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Our approach is practical, not theoretical. We're not building story-driven NPCs or cinematic agents — we're here to **move business metrics** like engagement and retention with scalable, device-efficient micro models.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+### What's Next?
+
+We’ll be sharing technical experiments, prototype demos, and open-source tools that help developers integrate small, fast, and smart models into mobile games. If you're working on a game and want to explore this kind of edge AI, we’d love to hear from you.
+
+Stay tuned — or [contact us](mailto:info@playcraftai.com) if you're ready to start now.
+
+---
+
+*Playcraft AI is founded by Russ Patterson, a 40-year veteran of the games industry with leadership roles at Zynga, Jam City, and several game development startups.*
