@@ -31,13 +31,20 @@ To pull this off, we don’t rely on heavy cloud services or centralized data ho
 - **Offline Ready**: Personalization doesn’t break when connectivity does.
 - **Cost-Efficient**: Skip the cloud inference bill.
 
+### On-Device Personalization Architecture
+
+![On-Device Architecture Diagram](/assets/images/On_Device_Arch_Diagram.png)
+
+Each player’s game evolves uniquely as lightweight preference vectors modulate LoRA adapters at runtime — all happening on the device for speed, privacy, and personalization without cloud costs.
+
 ### What's Next
 
 We’re building:
 
-- Prototype gameplay systems powered by edge-trained AI
-- Open source tools for integrating personalization into casual mobile games
-- Thought leadership and experiments to push what's possible with small models and real gameplay change
+- Prototype gameplay systems powered by on-device, player-trained AI
+- Proprietary tools for integrating real-time personalization into casual mobile games
+- Thought leadership and experimental demos that explore the frontier of lightweight, impactful game AI
+
 
 Whether you’re tuning a word game, building a new match-3, or wondering what comes *after* “live ops,” we’d love to collaborate.
 
