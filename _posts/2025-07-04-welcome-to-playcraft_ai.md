@@ -33,7 +33,11 @@ To pull this off, we don’t rely on heavy cloud services or centralized data ho
 
 ### On-Device Personalization Architecture
 
-![On-Device Architecture Diagram](/assets/images/On_Device_Arch_Diagram.png)
+
+<a href="javascript:void(0);" onclick="openZoom('/assets/images/Arch_Diagram_Unity_Centric.png')">
+  <img src="/assets/images/Arch_Diagram_Unity_Centric.png" alt="On-Device Architecture Diagram" style="max-width: 100%; cursor: zoom-in; border: 1px solid #ccc; border-radius: 4px;">
+</a>
+
 
 Each player’s game evolves uniquely as lightweight preference vectors modulate LoRA adapters at runtime — all happening on the device for speed, privacy, and personalization without cloud costs.
 
@@ -54,3 +58,24 @@ Ready to explore gameplay that evolves with your players?
 ---
 
 *Founded by Russ Patterson — a 40-year veteran of the games industry with leadership roles at Zynga, Jam City, EA, and Sony — Playcraft AI brings deep expertise in game systems, player psychology, and scalable technology.*
+
+<script>
+  function openZoom(src) {
+    const zoomOverlay = document.createElement('div');
+    zoomOverlay.style.position = 'fixed';
+    zoomOverlay.style.top = 0;
+    zoomOverlay.style.left = 0;
+    zoomOverlay.style.width = '100%';
+    zoomOverlay.style.height = '100%';
+    zoomOverlay.style.background = 'rgba(0, 0, 0, 0.85)';
+    zoomOverlay.style.display = 'flex';
+    zoomOverlay.style.alignItems = 'center';
+    zoomOverlay.style.justifyContent = 'center';
+    zoomOverlay.style.zIndex = 9999;
+    zoomOverlay.innerHTML = `
+      <img src="${src}" style="max-width: 90%; max-height: 90%; border-radius: 8px; box-shadow: 0 0 20px rgba(0,0,0,0.5);">
+    `;
+    zoomOverlay.addEventListener('click', () => document.body.removeChild(zoomOverlay));
+    document.body.appendChild(zoomOverlay);
+  }
+</script>
