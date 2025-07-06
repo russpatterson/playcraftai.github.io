@@ -34,9 +34,10 @@ To pull this off, we don’t rely on heavy cloud services or centralized data ho
 ### On-Device Personalization Architecture
 
 
-<a href="javascript:void(0);" onclick="openZoom('/assets/images/Arch_Diagram_Unity_Centric.png')">
+<a href="javascript:void(0);" onclick="openZoom('/assets/images/Arch_Diagram_Unity_Centric_Zoomed.png')">
   <img src="/assets/images/Arch_Diagram_Unity_Centric.png" alt="On-Device Architecture Diagram" style="max-width: 100%; cursor: zoom-in; border: 1px solid #ccc; border-radius: 4px;">
 </a>
+
 
 
 Each player’s game evolves uniquely as lightweight preference vectors modulate LoRA adapters at runtime — all happening on the device for speed, privacy, and personalization without cloud costs.
