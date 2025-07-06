@@ -5,8 +5,8 @@ description: >
   PlayCraft AI helps mobile game studios increase player retention and lifetime value (LTV)
   using on-device machine learning and micro-models. Fast, private, and resilient personalization.
 
-baseurl: "" # no subpath, leave blank for root-level hosting
-url: "https://playcraftai.github.io" # update this to your live domain if different
+url: "https://playcraftai.com"
+baseurl: ""
 
 github_username:  russpatterson
 
