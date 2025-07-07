@@ -38,6 +38,8 @@ To pull this off, we don’t rely on heavy cloud services or centralized data ho
   <img src="/assets/images/Arch_Diagram_Unity_Centric.png" alt="On-Device Architecture Diagram" style="max-width: 100%; cursor: zoom-in; border: 1px solid #ccc; border-radius: 4px;">
 </a>
 
+Each player’s experience adapts in real time through lightweight preference vectors that guide an embedded on-device model — powered by Unity Sentis for speed, privacy, and personalization without backend dependencies.
+
 <p style="margin-top: 1em;">
   🧠 <strong>Not using Unity?</strong> Or need to integrate a large pre-trained model like an LLM?<br>
   In those cases, your best bet might be the general-purpose architecture we use for non-Unity workflows.
@@ -50,9 +52,6 @@ To pull this off, we don’t rely on heavy cloud services or centralized data ho
 </p>
 
 
-
-
-Each player’s experience adapts in real time through lightweight preference vectors that guide an embedded on-device model — powered by Unity Sentis for speed, privacy, and personalization without backend dependencies.
 
 ### What's Next
 
