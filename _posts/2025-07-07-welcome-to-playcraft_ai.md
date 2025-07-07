@@ -38,6 +38,19 @@ To pull this off, we don’t rely on heavy cloud services or centralized data ho
   <img src="/assets/images/Arch_Diagram_Unity_Centric.png" alt="On-Device Architecture Diagram" style="max-width: 100%; cursor: zoom-in; border: 1px solid #ccc; border-radius: 4px;">
 </a>
 
+<p style="margin-top: 1em;">
+  🧠 <strong>Not using Unity?</strong> Or need to integrate a large pre-trained model like an LLM?<br>
+  In those cases, your best bet might be the general-purpose architecture we use for non-Unity workflows.
+</p>
+
+<p>
+  👉 <a href="javascript:void(0);" onclick="openZoom('/assets/images/Arch_Diagram_General_Purpose_zoomed.png')" style="font-weight: bold; cursor: zoom-in;">
+    View general-purpose architecture diagram
+  </a>
+</p>
+
+
+
 
 Each player’s experience adapts in real time through lightweight preference vectors that guide an embedded on-device model — powered by Unity Sentis for speed, privacy, and personalization without backend dependencies.
 
