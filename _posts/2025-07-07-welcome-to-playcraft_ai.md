@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Welcome to Playcraft AI"
-date: 2025-07-07 06:24:39 -0700
+date: 2025-07-04 13:03:39 -0700
 categories: launch
 ---
 
 Welcome to **Playcraft AI** — where gameplay evolves with you.
 
-Imagine a toy that becomes more of the toy you want the more you play with it. That’s what Playcraft AI aims to do: transform static game loops into living, responsive experiences that learn from each player and adapt in real time.
+Imagine a toy that becomes more of the toy you want and love the more you play with it. That’s what Playcraft AI aims to do: transform static game loops into living, responsive experiences that learn from each player and adapt in real time.
 
 We're a consulting and R&D practice focused on helping mobile game studios boost **player retention** and **lifetime value (LTV)** — not by tuning difficulty curves or tweaking ad timers, but by making gameplay itself feel more personal, more rewarding, and more alive.
 
