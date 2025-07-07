@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to Playcraft AI"
-date: 2025-07-04 13:03:39 -0700
+date: 2025-07-07 06:03:39 -0700
 categories: launch
 ---
 
@@ -39,8 +39,7 @@ To pull this off, we don’t rely on heavy cloud services or centralized data ho
 </a>
 
 
-
-Each player’s game evolves uniquely as lightweight preference vectors modulate LoRA adapters at runtime — all happening on the device for speed, privacy, and personalization without cloud costs.
+Each player’s experience adapts in real time through lightweight preference vectors that guide an embedded on-device model — powered by Unity Sentis for speed, privacy, and personalization without backend dependencies.
 
 ### What's Next
 
