@@ -4,6 +4,7 @@ title: "PlayCraft AI Video: Smarter Mobile Games with On-Device Models"
 date: 2025-07-09 08:33:39 -0700
 categories: update video
 ---
+![Russ Patterson](/assets/images/russpatterson.jpg){: style="width:110px;border-radius:55px;margin-bottom:0.75rem;" }
 
 We just dropped the first video introducing **PlayCraft AI** — a new approach to personalized gameplay that runs entirely on-device using lightweight machine learning models.
 

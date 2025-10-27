@@ -12,6 +12,8 @@ github_username:  russpatterson
 
 # Author info
 author: Russ Patterson
+avatar: /assets/images/russpatterson.jpg
+bio: "Director of Engineering, Playcraft AI. Building intelligent word games and exploring on-device ML for player happiness."
 
 # Build settings
 theme: minima

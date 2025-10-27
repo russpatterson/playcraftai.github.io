@@ -4,6 +4,8 @@ title: "Stand-Ups That Actually Work: My Philosophy on Daily Team Flow"
 description: "Why a 15-minute stand-up is the most important meeting of the day—and how to make it count."
 tags: [leadership, engineering, process, standup, culture, management]
 ---
+![Russ Patterson](/assets/images/russpatterson.jpg){: style="width:110px;border-radius:55px;margin-bottom:0.75rem;" }
+
 
 The daily stand-up is a short meeting, but it’s the heartbeat of a development team.  
 Done right, it keeps everyone aligned, problems visible, and progress flowing.  

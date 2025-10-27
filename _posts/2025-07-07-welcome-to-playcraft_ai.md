@@ -4,6 +4,7 @@ title: "Welcome to Playcraft AI"
 date: 2025-07-07 06:03:39 -0700
 categories: launch
 ---
+![Russ Patterson](/assets/images/russpatterson.jpg){: style="width:110px;border-radius:55px;margin-bottom:0.75rem;" }
 
 Welcome to **Playcraft AI** — where gameplay evolves with you.
 

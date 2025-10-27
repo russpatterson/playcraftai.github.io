@@ -4,6 +4,7 @@ title: "Start Here: Building the MNIST DigiClassifier"
 description: "Every game developer should train at least one neural network. Here’s the 'Hello World' of machine learning, and why it still matters."
 tags: [ml, neural-networks, game-development, learning, mnist, mlp, history]
 ---
+![Russ Patterson](/assets/images/russpatterson.jpg){: style="width:110px;border-radius:55px;margin-bottom:0.75rem;" }
 
 If you want to truly *learn* how machine learning works — not just vibe with ChatGPT or Copilot — start here.
 
