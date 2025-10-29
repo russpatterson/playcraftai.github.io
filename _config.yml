@@ -4,6 +4,9 @@ email: info@playcraftai.com
 description: >
   PlayCraft AI helps mobile game studios increase player retention and lifetime value (LTV)
   using on-device machine learning and micro-models. Fast, private, and resilient personalization.
+  tags: [ml, ai, game-development, leadership, learning, high-dimensional]
+date: 2025-10-29 08:00 -0700
+published: true
 
 url: "https://playcraftai.com"
 baseurl: ""
@@ -24,6 +27,9 @@ plugins:
 social_links:
   github: https://github.com/russpatterson
   linkedin: https://www.linkedin.com/in/russellpatterson/
+
+timezone: America/Los_Angeles
+
 
 # Defaults for posts and pages
 defaults:
