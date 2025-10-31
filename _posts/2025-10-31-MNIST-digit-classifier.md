@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Start Here: Building the MNIST DigiClassifier"
+title: "Start Here: Building the MNIST Digit Classifier"
 description: "Every game developer should train at least one neural network. Here’s the 'Hello World' of machine learning, and why it still matters."
 tags: [ml, neural-networks, game-development, learning, mnist, mlp, history]
 ---
