@@ -6,6 +6,7 @@ author: Russ Patterson
 categories: [Machine Learning, Game Design, Playcraft AI]
 description: "Before a neural network can learn, everything has to be translated into numbers. Vector space is where meaning becomes geometry."
 ---
+![Vector Space](/assets/images/Vector_Space.png)
 
 If you’ve been following along in this series — from **3D to 128D** to the **MNIST Digit Classifier** — you’ve already started to see how machine-learning models learn.  
 
@@ -40,6 +41,7 @@ That position becomes the anchor for how it relates to everything else.
 ---
 
 ## From Features to Space
+![Feature Space](/assets/images/vector_space_2.png)
 
 A model can’t understand *“cat”* or *“clever puzzle.”*  
 It only understands **relationships among numbers.**
@@ -57,6 +59,7 @@ Geometry becomes understanding.
 ---
 
 ## Why This Matters for Games
+![Mobile Games](/assets/images/mobile_games_5.png)
 
 Every part of your game can live in vector space.  
 
@@ -75,6 +78,7 @@ That’s the future of adaptive design: using the math of meaning to tune experi
 ---
 
 ## Intuition for Developers
+![Developer Intuition](/assets/images/developer_intuition_2.png)
 
 Think of vector space like a 3D world — but with invisible axes.  
 
@@ -91,6 +95,7 @@ When you can feel those relationships intuitively, you’re not just coding or d
 ---
 
 ## The Mental Shift
+![Mental Shift](/assets/images/mental_shift_brain_3.png)
 
 Moving from 3D modeling to 128D thinking isn’t about math — it’s about mindset.  
 
@@ -105,6 +110,8 @@ Once you can visualize ideas in vector form, you’re thinking like a machine le
 ---
 
 ## Closing
+
+![Idea Space](/assets/images/light_bulb_moment_1.png)
 
 Vector space is number space — but it’s also idea space.  
 
