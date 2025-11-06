@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Word Embeddings and the Shape of Meaning"
-date: 2025-11-06
+date: 2025-11-05
 author: Russ Patterson
 categories: [Machine Learning, Game Design, Playcraft AI]
 description: "How models learn the geometry of language — and why word embeddings are the bridge between symbols, thought, and meaning."
 ---
+![Word Embeddings](/assets/images/word_embeddings_1.png)
 
 If *vector space* is where numbers learn to mean things,  
 then **word embeddings** are how *words* find their place inside it.
@@ -18,6 +19,7 @@ It has to translate language into geometry.
 
 ## From Symbols to Meaning
 
+![Symbols](/assets/images/word_embeddings_symbols.png)
 Human language is built from symbols — patterns of sound or text that stand in for thoughts.  
 When someone speaks Russian and you don’t understand a word of it, the sounds hit your ears but never connect to meaning.  
 Your brain hasn’t built the mapping yet — the vector space where those sounds live.
@@ -30,7 +32,7 @@ That’s exactly what word embeddings do for machines.
 ---
 
 ## How Word Embeddings Work
-
+![Symbols](/assets/images/word_embeddings_colored_vector_graph.png)
 When training embeddings, a model reads millions (or billions) of sentences and learns which words appear near which others.  
 Each word is represented as a vector — a list of floating-point numbers, often 100 to 300 long.
 
@@ -49,7 +51,7 @@ Each pass updates the vectors slightly, until the network has literally *mapped 
 ---
 
 ## Why Pre-Trained Embeddings Matter
-
+![Symbols](/assets/images/word_embeddings_glove.png)
 Training embeddings well takes time, data, and compute.  
 Billions of words, thousands of GPU hours, and careful tuning.  
 That’s why open sets like **GloVe** and **FastText** are so valuable — they capture a general map of English (or any language) that you can reuse as a foundation.
@@ -64,7 +66,7 @@ Same idea — only now, you’re optimizing *meaning.*
 ---
 
 ## Custom Embeddings for Games
-
+![Symbols](/assets/images/word_embeddings_word_cloud.png)
 Imagine training embeddings on every level name, clue, and player chat log in your word game.  
 The model would start to learn your *tone* of language — how “twist,” “spark,” and “fusion” relate inside your universe.
 
@@ -78,7 +80,7 @@ they let your system reason about **semantic distance** instead of string matchi
 ---
 
 ## Why This Matters
-
+![Symbols](/assets/images/word_embeddings_crater.png)
 For game developers, embeddings open new frontiers:
 
 - **Procedural creativity:** Generate puzzles, levels, and clues that feel *on-theme* — spooky for Halloween, cozy for fall, sci-fi for event week.  
@@ -92,7 +94,7 @@ That’s how adaptive design stops being a buzzword and starts being a system.
 ---
 
 ## Closing
-
+![Symbols](/assets/images/word_embeddings_impact.png)
 Language isn’t just stored — it’s *shaped.*  
 Embeddings reveal that shape, turning words into points on the map of meaning.
 
