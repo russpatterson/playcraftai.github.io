@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "AI Won’t Replace Us. It’ll Reveal Us."
-date: 2025-11-27
+date: 2025-11-23
 author: Russ Patterson
 categories: [AI, Consciousness, Human Nature, Playcraft AI]
 description: "Neural networks were built to mirror human thinking. What they reflect is extraordinary — but what they leave out may be even more important."
 ---
 
-![AI Mirror](/assets/images/ai_mirror_reflection.png)
+![AI Mirror](/assets/images/AI_Mirror.jpg)
 
 When neural networks were first proposed in the 1980s, the goal wasn’t just to crunch numbers.  
 It was to **simulate the human brain** — to model how neurons worked together to solve problems.
@@ -18,6 +18,7 @@ And now, decades later, that mirror is staring back.
 ---
 
 ## What the Mirror Reflects
+![Reflects](/assets/images/reflects.jpg)
 
 Large language models are astonishing in what they can do:  
 They retrieve, summarize, compose, and even reason across vast domains of knowledge.
@@ -35,13 +36,14 @@ Process. Pattern. Prediction.
 ---
 
 ## What the Mirror Doesn’t Show
+![Doesn't Show](/assets/images/doesnt_show.png)
 
 What it leaves out is just as important.
 
 AI doesn’t feel.  
 It doesn’t long.  
 It doesn’t suffer or awaken.  
-It doesn’t wonder what it is, or why beauty hurts, or what it means to be loved.
+It doesn’t wonder what it is, or why beauty moves us, or what it means to be loved.
 
 Strip away our evolutionary baggage — the monkey brain, the tribalism, the fight-or-flight circuitry —  
 and what remains isn’t less human. It’s more.
@@ -65,6 +67,7 @@ AI is not the threat.
 ---
 
 ## What AI Might Help Us See
+![Help us see](/assets/images/What_AI_might_help_us_see.jpg)
 
 Paradoxically, this technology we’ve built — this mirror — may be what finally brings us back to the truth.
 
@@ -81,7 +84,7 @@ And what we must never forget.
 
 ## Closing
 
-![Human Spark](/assets/images/human_spark_fire.png)
+![Human Spark](/assets/images/What_is_this_spark.jpg)
 
 AI will change everything — work, communication, art, even how we learn.
 
