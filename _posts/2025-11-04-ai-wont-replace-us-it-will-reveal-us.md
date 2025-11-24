@@ -5,6 +5,7 @@ date: 2025-11-23
 author: Russ Patterson
 categories: [AI, Consciousness, Human Nature, Playcraft AI]
 description: "Neural networks were built to mirror human thinking. What they reflect is extraordinary — but what they leave out may be even more important."
+permalink: /ai-reveals-us/
 ---
 
 ![AI Mirror](/assets/images/AI_Mirror.jpg)
