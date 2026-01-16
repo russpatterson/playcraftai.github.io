@@ -12,4 +12,4 @@ We're building the future of gameplay with generative intelligence.
 
 
 <!-- ![Playcraft AI Logo](/assets/images/PlayCraftAI_Logo.png) -->
-_Last site build: v2025.11.23a_
+_Last site build: v2026.01.16a_
