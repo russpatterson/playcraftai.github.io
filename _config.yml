@@ -1,8 +1,8 @@
 title: PlayCraft AI
 email: info@playcraftai.com
 description: >
-  PlayCraft AI helps mobile game studios increase player retention and lifetime value (LTV)
-  using on-device machine learning and micro-models. Fast, private, and resilient personalization.
+  PlayCraft AI develops creative AI systems for interactive media, real-time rendering,
+  and music-driven visual experiences. Exploring new tools for storytelling and digital performance.
 date: 2025-10-29 08:00 -0700
 published: true
 
@@ -15,7 +15,7 @@ github_username:  russpatterson
 # Author info
 author: Russ Patterson
 avatar: /assets/images/russpatterson.jpg
-bio: "Director of Engineering, Playcraft AI. Building intelligent word games and exploring on-device ML for player happiness."
+bio: "Director of Engineering, PlayCraft AI. Building real-time AI systems for interactive media and generative visuals."
 
 # Build settings
 theme: minima
