@@ -47,8 +47,9 @@ defaults:
 # Navigation links (minima theme)
 header_pages:
   - index.md
+  - videos.md
   - about.md
-  - blog.md # optional: if you make a blog landing page
+  - blog.md
 
 # Exclusions
 exclude:

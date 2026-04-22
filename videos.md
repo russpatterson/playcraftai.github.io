@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Videos
+permalink: /videos/
 ---
 
 # Shotmaker Experiments - The Daydreamer Evolution
