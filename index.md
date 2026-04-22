@@ -30,9 +30,11 @@ My background spans games, technology, creative direction, and product developme
 
 ---
 
-## What I’m building
+### What I’m building
 
-- **Shotmaker**, a tool for more controllable AI filmmaking
+- **Shotmaker**, a tool for more controllable AI filmmaking  
+  - **Daydreamer**, a showcase system that generates short-form regenerative AI video clips — exploratory visual experiments that reveal what the technology can do today
+
 - **3D-aware AI video workflows** using scene data and camera motion
 - **Repeatable shots** that can be directed instead of guessed
 - **Short-form visual experiments** that show where this is headed

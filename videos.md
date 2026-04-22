@@ -18,7 +18,7 @@ These videos are grouped by capability — from basic structure preservation to 
   </iframe>
 </div>
 
-<div style="text-align: center; margin-top: 8px;">
+<div style="text-align: center; margin-top: 8px; margin-bottom: 28px;">
 
 <strong>Sand Temple Demo</strong>
 
@@ -65,7 +65,7 @@ How much creative variation can be introduced while preserving spatial structure
   </iframe>
 </div>
 
-<div style="text-align: center; margin-top: 8px;">
+<div style="text-align: center; margin-top: 8px; margin-bottom: 28px;">
 
 <strong>Sand Temple Ramp — Controlled Hallucination</strong>
 
@@ -93,7 +93,7 @@ The renderer focuses on character presence while maintaining environmental conte
   </iframe>
 </div>
 
-<div style="text-align: center; margin-top: 8px;">
+<div style="text-align: center; margin-top: 8px; margin-bottom: 28px;">
 
 <strong>Sand Temple Portrait — Environmental Emergence</strong>
 
@@ -114,7 +114,7 @@ Architectural structures emerge beneath the dancer as the system invents spatial
   </iframe>
 </div>
 
-<div style="text-align: center; margin-top: 8px;">
+<div style="text-align: center; margin-top: 8px; margin-bottom: 28px;">
 
 <strong>Higher Denoising — Emergent Character Variations</strong>
 
@@ -135,7 +135,7 @@ These variations appear briefly and then stabilize, demonstrating how creative e
   </iframe>
 </div>
 
-<div style="text-align: center; margin-top: 8px;">
+<div style="text-align: center; margin-top: 8px; margin-bottom: 28px;">
 
 <strong>Portrait Variant — Architectural Exploration</strong>
 
@@ -145,18 +145,19 @@ In this variation, the system begins to invent architectural structures beneath 
 
 </div>
 
-</div>
-
----
 
 </div>
 
 ---
-# 3. Energy — Music Drives the System
+# 3. Energy — Music Makes It Move
 
-These experiments synchronize rendering behavior to musical intensity.
+These experiments synchronize rendering behavior to musical structure and sound energy.
 
-Instead of static parameters, the system responds dynamically to sound energy.
+Instead of using fixed render settings, the system automates denoising and other parameters across time. Downbeats create larger pulses, intermediate beats create smaller pulses, and additional energy-driven bias can push the renderer harder when the music intensifies.
+
+In the plot below, the denoising curve is built from several components: a base value, beat-driven pulse additions, and an experimental override in measure 7 that deliberately drives the system into a stronger hallucination event.
+
+<img src="/assets/images/payload_denoise_plot.png" alt="Plot of beat-driven denoising automation showing downbeat pulses, beat pulses, and a larger override in measure 7" style="max-width: 100%; height: auto; display: block; margin: 18px auto 28px auto;">
 
 <div style="position: relative; padding-top: 56.25%;">
   <iframe
@@ -168,7 +169,7 @@ Instead of static parameters, the system responds dynamically to sound energy.
 
 
 
-<div style="text-align: center; margin-top: 8px;">
+<div style="text-align: center; margin-top: 8px; margin-bottom: 28px;">
 
 <strong>Funky Town — Portrait Variation</strong>
 
@@ -188,7 +189,7 @@ A refined portrait version of the Funky Town sequence, emphasizing rhythm-driven
 </div>
 ---
 
-<div style="text-align: center; margin-top: 8px;">
+<div style="text-align: center; margin-top: 8px; margin-bottom: 28px;">
 
 <strong>Funky Town — Beat-Driven Motion</strong>
 
@@ -209,7 +210,7 @@ Visual intensity increases on musical beats, producing rhythmic bursts of motion
   </iframe>
 </div>
 
-<div style="text-align: center; margin-top: 8px;">
+<div style="text-align: center; margin-top: 8px; margin-bottom: 28px;">
 
 <strong>Energy Mapping — Sound Controls Rendering</strong>
 
@@ -236,7 +237,7 @@ The goal is to preserve motion consistency while still allowing creative halluci
   </iframe>
 </div>
 
-<div style="text-align: center; margin-top: 8px;">
+<div style="text-align: center; margin-top: 8px; margin-bottom: 28px;">
 
 <strong>Boing Ball Physics — High Hallucination Attempt</strong>
 
@@ -259,7 +260,7 @@ The tradeoff was that the Boing Ball itself mostly disappeared, only appearing b
   </iframe>
 </div>
 
-<div style="text-align: center; margin-top: 8px;">
+<div style="text-align: center; margin-top: 8px; margin-bottom: 28px;">
 
 <strong>Boing Ball Physics — Structure vs Imagination</strong>
 
@@ -288,7 +289,7 @@ Unity frames, control maps, and parameter changes are displayed in real time, re
   </iframe>
 </div>
 
-<div style="text-align: center; margin-top: 8px;">
+<div style="text-align: center; margin-top: 8px; margin-bottom: 28px;">
 
 <strong>System Overview — Control Maps and Beat Synchronization</strong>
 
