@@ -223,6 +223,39 @@ Audio amplitude is mapped directly to rendering parameters, allowing the system 
 
 </div>
 
+<div style="position: relative; padding-top: 56.25%;">
+  <iframe
+    src="https://player.mux.com/bfNjYWItmrzvI5OvoG78i6b82pGTG0277AfF5ayvl65o"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<div style="text-align: center; margin-top: 8px; margin-bottom: 28px;">
+
+<strong>Go-Go Dancers — Beat-Synchronized Motion</strong>
+
+<div style="margin-top: 6px; max-width: 680px; margin-left: auto; margin-right: auto;">
+
+This lower-denoising experiment pushes much harder on the downbeats and beats. The result is one of the clearest examples of the dancers syncing their pose and motion to the music while still allowing controlled bursts of hallucination.
+
+</div>
+
+</div>
+<div style="max-width: 760px; margin: 28px auto 10px auto;">
+
+<img src="/assets/images/bigsync_payload_denoise_plot.png"
+     alt="Denoising automation driven by musical beats and downbeats"
+     style="width: 100%; height: auto; display: block; border-radius: 6px;">
+
+<div style="text-align: center; font-size: 0.95em; color: #666; margin-top: 8px; max-width: 680px; margin-left: auto; margin-right: auto;">
+
+The dancers appear to synchronize with the music because the rendering parameters are being actively driven by the beat.  
+This plot shows the denoising signal used in the experiment, with steady baseline values and sharp increases on downbeats that inject motion and variation at precise musical moments.
+
+</div>
+
+</div>
 ---
 # 4. Physics — Interaction with Real Motion
 
