@@ -4,6 +4,7 @@ title: "Word Embeddings and the Shape of Meaning"
 date: 2025-11-05
 author: Russ Patterson
 categories: [Machine Learning, Game Design, Playcraft AI]
+permalink: /word-embeddings/
 description: "How models learn the geometry of language — and why word embeddings are the bridge between symbols, thought, and meaning."
 ---
 ![Word Embeddings](/assets/images/word_embeddings_1.png)
