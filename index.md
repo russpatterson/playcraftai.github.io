@@ -51,7 +51,8 @@ I’m currently publishing short-form AI video pieces that explore visual storyt
 
 These videos are not just demos. They are stepping stones toward production-grade filmmaking tools.
 
-[View the videos →](/videos/)
+[View the videos list →](/daydreamer-clips/)
+[Read the experiments breakdown →](/videos/)
 
 More videos and breakdowns are coming soon.
 
