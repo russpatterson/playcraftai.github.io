@@ -94,6 +94,12 @@
   source_filename: "PlayCraftAI_Arena_Rock_people_r01_c01_SC12_SD0p5.mp4"
   comment: "A crowd-focused Arena Rock pass with more emphasis on bodies, silhouettes, and stage energy."
 
+- title: "Arena Rock Alt Prompt Styles"
+  playback_id: "TwLPTK028OyvwOKzQmCk024bV01YbK8cBdDfgWjFfwdSRs"
+  aspect: "portrait"
+  source_filename: "Playcraft AI Alt Prompt Styles Arena Rock"
+  comment: "A prompt-style exploration that pushes the same Arena Rock scene through dramatically different visual languages, from claymation to magazine-style 2D cutout to Japanese woodblock and beyond."
+
 - title: "Bronx Beat Dribble"
   playback_id: "BBPCGnma1BaKjdJRwqcvKLSDH1HQ01PW8aoR02T4JGykQ"
   aspect: "portrait"
@@ -123,3 +129,15 @@
   aspect: "portrait"
   source_filename: "PlayCrafAI_Area_Rock_r00_c01_SC24_SD0p5_music_sync_flash_24fps_with_audio.mp4"
   comment: "A renamed Arena Rock music-sync clip with stronger descriptive naming than the original render output."
+
+- title: "Cinco de Mayo Cartoon Downbeat Punch"
+  playback_id: "YQaoGEwtOf6Max5IO8ddnc3z71aPM1TS8LNpzq5t41U"
+  aspect: "portrait"
+  source_filename: "PlayCraftAI_cinco_de_mayo_cartoon_downbeat_punch_r00_c00_SC24_SD0p45"
+  comment: "A high-energy Cinco de Mayo Daydreamer pass with stronger downbeat-driven motion and a more animated folk-art direction."
+
+- title: "Cinco de Mayo Stained Glass"
+  playback_id: "202hGv02qoEW8lkVFpNLr02orJT5XHOTZHVYqOsMZf7Aro"
+  aspect: "portrait"
+  source_filename: "PlayCraftAI_cinco_de_mayo_stained_glass_r00_c00_SC24_SD0p45"
+  comment: "A jewel-toned stained-glass Cinco de Mayo experiment with bold outlines, decorative panels, and graceful folklorico motion."

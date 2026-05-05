@@ -6,7 +6,7 @@ permalink: /daydreamer-clips/
 
 # Daydreamer Clips
 
-Short-form regenerative AI video experiments from PlayCraft AI. These are the clips selected for sharing, collected in one place so new renders can be added quickly.
+Short-form regenerative AI video experiments from PlayCraft AI. These are the clips selected for sharing, collected in one place so new renders, prompt studies, and notes can be added quickly.
 
 <style>
   .clip-grid {
