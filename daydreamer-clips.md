@@ -6,44 +6,49 @@ permalink: /daydreamer-clips/
 
 # Daydreamer Clips
 
-Short-form regenerative AI video experiments from PlayCraft AI. These are the clips selected for sharing, collected in one place so new renders, prompt studies, and notes can be added quickly.
+Short-form regenerative AI video experiments from PlayCraft AI. The newest clips are first. Open a clip for its high-quality Mux player, shareable URL, and experiment notes.
 
 <style>
   .clip-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 28px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 22px;
     margin-top: 28px;
   }
 
   .clip-card {
     border: 1px solid #e6e6e6;
     border-radius: 8px;
+    color: inherit;
+    display: block;
     overflow: hidden;
+    text-decoration: none;
     background: #fff;
   }
 
-  .clip-player {
+  .clip-card:hover {
+    border-color: #aaa;
+  }
+
+  .clip-thumb {
     position: relative;
     background: #111;
   }
 
-  .clip-player.landscape {
+  .clip-thumb.landscape {
     aspect-ratio: 16 / 9;
   }
 
-  .clip-player.portrait {
+  .clip-thumb.portrait {
     aspect-ratio: 9 / 16;
-    max-width: 360px;
     margin: 0 auto;
   }
 
-  .clip-player iframe {
-    position: absolute;
-    inset: 0;
-    width: 100%;
+  .clip-thumb img {
+    display: block;
     height: 100%;
-    border: 0;
+    object-fit: cover;
+    width: 100%;
   }
 
   .clip-copy {
@@ -57,8 +62,15 @@ Short-form regenerative AI video experiments from PlayCraft AI. These are the cl
   }
 
   .clip-copy p {
-    margin: 0;
     color: #555;
+    margin: 0;
+  }
+
+  .clip-meta {
+    color: #555;
+    display: block;
+    font-size: 0.84rem;
+    margin-top: 10px;
   }
 
   .clip-source {
@@ -71,21 +83,20 @@ Short-form regenerative AI video experiments from PlayCraft AI. These are the cl
 </style>
 
 <div class="clip-grid">
-  {% for clip in site.data.daydreamer_clips %}
-    <article class="clip-card">
-      <div class="clip-player {{ clip.aspect | default: 'portrait' }}">
-        <iframe
-          src="https://player.mux.com/{{ clip.playback_id }}"
-          title="{{ clip.title | escape }}"
-          allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
-          allowfullscreen>
-        </iframe>
+  {% assign clips = site.clips | sort: "sort_order" | reverse %}
+  {% for clip in clips %}
+    <a class="clip-card" href="{{ clip.url | relative_url }}">
+      <div class="clip-thumb {{ clip.aspect | default: 'portrait' }}">
+        <img
+          src="https://image.mux.com/{{ clip.playback_id }}/thumbnail.jpg?time=1&width=640"
+          alt="{{ clip.title | escape }} thumbnail"
+          loading="lazy">
       </div>
       <div class="clip-copy">
         <h2>{{ clip.title }}</h2>
         <p>{{ clip.comment }}</p>
-        <span class="clip-source">{{ clip.source_filename }}</span>
+        <span class="clip-meta">Open clip page</span>
       </div>
-    </article>
+    </a>
   {% endfor %}
 </div>

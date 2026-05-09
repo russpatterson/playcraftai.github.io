@@ -1,0 +1,122 @@
+---
+layout: default
+---
+
+<article class="clip-detail">
+  <style>
+    .clip-detail {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    .clip-detail-back {
+      display: inline-block;
+      margin-bottom: 18px;
+      color: #555;
+      font-size: 0.95rem;
+    }
+
+    .clip-detail h1 {
+      margin-bottom: 8px;
+    }
+
+    .clip-detail-meta {
+      color: #666;
+      margin: 0 0 22px;
+    }
+
+    .clip-detail-player {
+      position: relative;
+      background: #111;
+      margin: 0 auto 22px;
+    }
+
+    .clip-detail-player.landscape {
+      aspect-ratio: 16 / 9;
+    }
+
+    .clip-detail-player.portrait {
+      aspect-ratio: 9 / 16;
+      max-width: 430px;
+    }
+
+    .clip-detail-player iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .clip-detail-copy {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .clip-detail-copy p {
+      color: #444;
+      font-size: 1.04rem;
+      line-height: 1.58;
+    }
+
+    .clip-detail-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 22px;
+    }
+
+    .clip-detail-actions a {
+      border: 1px solid #d6d6d6;
+      border-radius: 6px;
+      color: #222;
+      display: inline-block;
+      padding: 8px 11px;
+      text-decoration: none;
+    }
+
+    .clip-detail-actions a:hover {
+      border-color: #999;
+    }
+
+    .clip-detail-source {
+      color: #777;
+      display: block;
+      font-size: 0.82rem;
+      margin-top: 18px;
+      overflow-wrap: anywhere;
+    }
+  </style>
+
+  <a class="clip-detail-back" href="/daydreamer-clips/">Back to Daydreamer Clips</a>
+
+  <header>
+    <h1>{{ page.title }}</h1>
+    <p class="clip-detail-meta">Daydreamer experiment</p>
+  </header>
+
+  <div class="clip-detail-player {{ page.aspect | default: 'portrait' }}">
+    <iframe
+      src="https://player.mux.com/{{ page.playback_id }}"
+      title="{{ page.title | escape }}"
+      allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="clip-detail-copy">
+    <p>{{ page.comment }}</p>
+
+    {{ content }}
+
+    <div class="clip-detail-actions">
+      <a href="https://player.mux.com/{{ page.playback_id }}">Open Mux Player</a>
+      <a href="https://stream.mux.com/{{ page.playback_id }}.m3u8">Open HLS Stream</a>
+      <a href="https://image.mux.com/{{ page.playback_id }}/thumbnail.jpg?time=1">Open Thumbnail</a>
+    </div>
+
+    {% if page.source_filename %}
+      <span class="clip-detail-source">{{ page.source_filename }}</span>
+    {% endif %}
+  </div>
+</article>

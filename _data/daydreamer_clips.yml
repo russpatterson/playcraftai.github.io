@@ -1,143 +1,167 @@
-- title: "Sand Temple Demo"
-  playback_id: "RBZAzoxNDnorAcTVoWfa6tPj6XE02au8v3etXUcoIG00k"
-  aspect: "landscape"
-  source_filename: "PlayCraft_AI_SandTemple_Demo_SC12_SD0p55.mp4"
-  comment: "A compact Daydreamer showcase where the Sand Temple scene starts to feel alive."
-
-- title: "Sand Temple Ramp"
-  playback_id: "clY01Hd01JAjT5Ih2Y02ugODVJ7dVCOep4LTQJX00EDrqso"
-  aspect: "landscape"
-  source_filename: "PlayCraft AI - ramp -example - r00_c00_SC4_SD0p1_music_sync_flash_24fps_with_audio.mp4"
-  comment: "A controlled ramp from stable structure into music-driven visual invention."
-
-- title: "Sand Temple Portrait"
-  playback_id: "IAmQWTANBWIMGsN9DEcHOQ003d01ByrZfx30001PofU00aHs"
-  aspect: "portrait"
-  source_filename: "PlayCraft_AI_Portrait_temple_r00_c01_SC24_SD0p45.mp4"
-  comment: "A vertical composition focused on the dancer, with the temple architecture forming around the motion."
-
-- title: "Golden God Portrait"
-  playback_id: "b8KKjP2t2w00plENxLWMIcglskhCIPKFOjufGjrq6u300"
-  aspect: "portrait"
-  source_filename: "PlayCraftAI_SandTemple_goldn_god_portrait_SC12_SD0p45.mp4"
-  comment: "A more stylized Sand Temple variation with stronger character transformation."
-
-- title: "Sand Temple Architecture"
-  playback_id: "AuRNIt17tkk6rAtz6oLqFiB1HRlYRSaAI00J73EkVI8E"
-  aspect: "portrait"
-  source_filename: "PlayCraftAI_Sand_Temple_architecture_Portrait_C12_SD0p55.mp4"
-  comment: "An architectural portrait test where the environment expands underneath the performance."
-
-- title: "Funky Color Sync Preview"
-  playback_id: "B5VzCAh3RYr8Q100MSAUBsK5aHrPGGq008t01bH6M00Tnmo"
-  aspect: "portrait"
-  source_filename: "Funky_color_music_sync_preview_24fps_with_audio.mp4"
-  comment: "A color-map preview showing how music timing can drive visible rendering changes."
-
-- title: "Funky Town Portrait"
-  playback_id: "fvZT00W4OIWPIexyZ5i01Zjb00F5O02yANggxYpudv0101UTM"
-  aspect: "portrait"
-  source_filename: "PlayCraftAI_Portrait_Funky_Town_SC24_SD0p45.mp4"
-  comment: "A tighter portrait version of the Funky Town sequence, built for phone-first viewing."
-
-- title: "Funky Town High Energy"
-  playback_id: "dLrJzdVUfKQsPUwX27AxZyyXswrrf5Y012LU7w2kH0000U"
-  aspect: "portrait"
-  source_filename: "PlayCraftAI_Funky_SC24_SD0p55.mp4"
-  comment: "A more aggressive Funky Town pass with stronger hallucination and rhythmic variation."
-
-- title: "Energy Mapping"
-  playback_id: "9FqAFkkSQUKxFB8dEXq002AB8fNVJDIXZMocqxAk1L8U"
-  aspect: "portrait"
-  source_filename: "PlayCraftAI_Energy_FunkyTown_SC12_SD0p55.mp4"
-  comment: "Audio energy is mapped into the render settings so the image reacts to the track."
-
-- title: "Go-Go Big Sync"
-  playback_id: "bfNjYWItmrzvI5OvoG78i6b82pGTG0277AfF5ayvl65o"
-  aspect: "portrait"
-  source_filename: "PlayCraftAI_GOGO_Big_Sync_SC24_SD0p5.mp4"
-  comment: "One of the clearest beat-synchronized tests, with pose and visual intensity landing on the music."
-
-- title: "60s Go-Go"
-  playback_id: "28MkXvQWb900ALDSg015M2nGp7qEhTAn0000Bn3nFy7EVLw"
-  aspect: "portrait"
-  source_filename: "PlayCraftAI_60s_GoGo_SC24_SD0p55.mp4"
-  comment: "A retro go-go variation that pushes the feedback loop into a bolder social clip."
-
-- title: "Go-Go Boing Test"
-  playback_id: "28MkXvQWb900ALDSg015M2nGp7qEhTAn0000Bn3nFy7EVLw"
-  aspect: "portrait"
-  source_filename: "PlayCraftAI_60's_GoGo_Boing_Test_ SD0p35_JB0.mp4"
-  comment: "A physics-flavored go-go test where motion, feedback, and object interaction collide."
-
-- title: "Arena Rock Telemetry"
-  playback_id: "chatEdB02fYnGWp26jZcqNtP9lm2lycrrNqrBQjaxxFw"
-  aspect: "landscape"
-  source_filename: "PlayCraftAI_Arena_Rock_Big_Pulse_ telemetry_r00_c00_SC24_SD0p45_telemetry_preview_12fps.mp4"
-  comment: "A telemetry view of the Arena Rock big-pulse pass, useful for showing the system signals behind the clip."
-
-- title: "Arena Rock Big Pulse"
-  playback_id: "W2hPWjr1OJCeVg800V01aIi1szyfKr0080002Qtzaw01MEHvk"
-  aspect: "portrait"
-  source_filename: "PlayCraftAI_Arena_Rock_Big_Pulse_r00_c00_SC24_SD0p45.mp4"
-  comment: "A vertical Arena Rock clip with larger beat-driven pushes into visual transformation."
-
-- title: "Arena Rock Faces"
-  playback_id: "jQRThnNmQNDbIt00GoAJaN5iPgoQir01lUbJaFemDrPfw"
-  aspect: "portrait"
-  source_filename: "PlayCraftAI_Arena_Rock_faces_r01_c00_SC12_SD0p45.mp4"
-  comment: "A character-heavy Arena Rock variation where the system searches through faces and crowd detail."
-
-- title: "Arena Rock People"
-  playback_id: "jO3jZGamMGRRj501aiR02raggY1qzDi8AHGWvNSChr7Mo"
-  aspect: "portrait"
-  source_filename: "PlayCraftAI_Arena_Rock_people_r01_c01_SC12_SD0p5.mp4"
-  comment: "A crowd-focused Arena Rock pass with more emphasis on bodies, silhouettes, and stage energy."
-
-- title: "Arena Rock Alt Prompt Styles"
-  playback_id: "TwLPTK028OyvwOKzQmCk024bV01YbK8cBdDfgWjFfwdSRs"
-  aspect: "portrait"
-  source_filename: "Playcraft AI Alt Prompt Styles Arena Rock"
-  comment: "A prompt-style exploration that pushes the same Arena Rock scene through dramatically different visual languages, from claymation to magazine-style 2D cutout to Japanese woodblock and beyond."
-
-- title: "Bronx Beat Dribble"
-  playback_id: "BBPCGnma1BaKjdJRwqcvKLSDH1HQ01PW8aoR02T4JGykQ"
-  aspect: "portrait"
-  source_filename: "PlayCraftAI_Bronx_Beat_dribble_r00_c01_SC24_SD0p5.mp4"
-  comment: "A Bronx Beat test that keeps the basketball motion readable while the image keeps evolving."
-
-- title: "Bronx Beat Small Pulse"
-  playback_id: "2PibhSNSyNdAYFZPL02b51FKOA01H015kJ7AxY7wUwT7sU"
-  aspect: "portrait"
-  source_filename: "PlayCraftAI_Bronx_Beat_dribble_small_pulse_r00_c00_SC24_SD0p45.mp4"
-  comment: "A subtler Bronx Beat pass with smaller music pulses and more structural restraint."
-
-- title: "Bronx Beat Go-Go Maps"
-  playback_id: "QVkCmDlapoo4qAdoz3xHQwf8DBWkXtuZs200cLpYuxnw"
-  aspect: "portrait"
-  source_filename: "PlayCraftAI_Bronx_Beat_gogo_maps.mp4"
-  comment: "A map-forward Bronx Beat experiment that shows how control data shapes the visual result."
-
-- title: "Bronx Beat Telemetry"
-  playback_id: "gOnD2VJ02eTtYhYWHRM727V3bhQmS0262QcDhXheSZZi4"
-  aspect: "landscape"
-  source_filename: "PlayCraftAI_bronx_beat_2_r00_c01_SC24_SD0p5_telemetry_preview_12fps.mp4"
-  comment: "A telemetry preview for the Bronx Beat sequence, pairing the render with the timing and control signals."
-
-- title: "Arena Rock Music Sync"
-  playback_id: "601JyDKDD02F1ZMUQij8YmaIa2Q02oJ18g00i7s9puASQxM"
-  aspect: "portrait"
-  source_filename: "PlayCrafAI_Area_Rock_r00_c01_SC24_SD0p5_music_sync_flash_24fps_with_audio.mp4"
-  comment: "A renamed Arena Rock music-sync clip with stronger descriptive naming than the original render output."
-
-- title: "Cinco de Mayo Cartoon Downbeat Punch"
-  playback_id: "YQaoGEwtOf6Max5IO8ddnc3z71aPM1TS8LNpzq5t41U"
-  aspect: "portrait"
-  source_filename: "PlayCraftAI_cinco_de_mayo_cartoon_downbeat_punch_r00_c00_SC24_SD0p45"
-  comment: "A high-energy Cinco de Mayo Daydreamer pass with stronger downbeat-driven motion and a more animated folk-art direction."
-
-- title: "Cinco de Mayo Stained Glass"
-  playback_id: "202hGv02qoEW8lkVFpNLr02orJT5XHOTZHVYqOsMZf7Aro"
-  aspect: "portrait"
-  source_filename: "PlayCraftAI_cinco_de_mayo_stained_glass_r00_c00_SC24_SD0p45"
-  comment: "A jewel-toned stained-glass Cinco de Mayo experiment with bold outlines, decorative panels, and graceful folklorico motion."
+- title: Sand Temple Demo
+  playback_id: RBZAzoxNDnorAcTVoWfa6tPj6XE02au8v3etXUcoIG00k
+  aspect: landscape
+  source_filename: PlayCraft_AI_SandTemple_Demo_SC12_SD0p55.mp4
+  comment: A compact Daydreamer showcase where the Sand Temple scene starts to feel
+    alive.
+- title: Sand Temple Ramp
+  playback_id: clY01Hd01JAjT5Ih2Y02ugODVJ7dVCOep4LTQJX00EDrqso
+  aspect: landscape
+  source_filename: PlayCraft AI - ramp -example - r00_c00_SC4_SD0p1_music_sync_flash_24fps_with_audio.mp4
+  comment: A controlled ramp from stable structure into music-driven visual invention.
+- title: Sand Temple Portrait
+  playback_id: IAmQWTANBWIMGsN9DEcHOQ003d01ByrZfx30001PofU00aHs
+  aspect: portrait
+  source_filename: PlayCraft_AI_Portrait_temple_r00_c01_SC24_SD0p45.mp4
+  comment: A vertical composition focused on the dancer, with the temple architecture
+    forming around the motion.
+- title: Golden God Portrait
+  playback_id: b8KKjP2t2w00plENxLWMIcglskhCIPKFOjufGjrq6u300
+  aspect: portrait
+  source_filename: PlayCraftAI_SandTemple_goldn_god_portrait_SC12_SD0p45.mp4
+  comment: A more stylized Sand Temple variation with stronger character transformation.
+- title: Sand Temple Architecture
+  playback_id: AuRNIt17tkk6rAtz6oLqFiB1HRlYRSaAI00J73EkVI8E
+  aspect: portrait
+  source_filename: PlayCraftAI_Sand_Temple_architecture_Portrait_C12_SD0p55.mp4
+  comment: An architectural portrait test where the environment expands underneath
+    the performance.
+- title: Funky Color Sync Preview
+  playback_id: B5VzCAh3RYr8Q100MSAUBsK5aHrPGGq008t01bH6M00Tnmo
+  aspect: portrait
+  source_filename: Funky_color_music_sync_preview_24fps_with_audio.mp4
+  comment: A color-map preview showing how music timing can drive visible rendering
+    changes.
+- title: Funky Town Portrait
+  playback_id: fvZT00W4OIWPIexyZ5i01Zjb00F5O02yANggxYpudv0101UTM
+  aspect: portrait
+  source_filename: PlayCraftAI_Portrait_Funky_Town_SC24_SD0p45.mp4
+  comment: A tighter portrait version of the Funky Town sequence, built for phone-first
+    viewing.
+- title: Funky Town High Energy
+  playback_id: dLrJzdVUfKQsPUwX27AxZyyXswrrf5Y012LU7w2kH0000U
+  aspect: portrait
+  source_filename: PlayCraftAI_Funky_SC24_SD0p55.mp4
+  comment: A more aggressive Funky Town pass with stronger hallucination and rhythmic
+    variation.
+- title: Energy Mapping
+  playback_id: 9FqAFkkSQUKxFB8dEXq002AB8fNVJDIXZMocqxAk1L8U
+  aspect: portrait
+  source_filename: PlayCraftAI_Energy_FunkyTown_SC12_SD0p55.mp4
+  comment: Audio energy is mapped into the render settings so the image reacts to
+    the track.
+- title: Go-Go Big Sync
+  playback_id: bfNjYWItmrzvI5OvoG78i6b82pGTG0277AfF5ayvl65o
+  aspect: portrait
+  source_filename: PlayCraftAI_GOGO_Big_Sync_SC24_SD0p5.mp4
+  comment: One of the clearest beat-synchronized tests, with pose and visual intensity
+    landing on the music.
+- title: 60s Go-Go
+  playback_id: 28MkXvQWb900ALDSg015M2nGp7qEhTAn0000Bn3nFy7EVLw
+  aspect: portrait
+  source_filename: PlayCraftAI_60s_GoGo_SC24_SD0p55.mp4
+  comment: A retro go-go variation that pushes the feedback loop into a bolder social
+    clip.
+- title: Go-Go Boing Test
+  playback_id: 28MkXvQWb900ALDSg015M2nGp7qEhTAn0000Bn3nFy7EVLw
+  aspect: portrait
+  source_filename: PlayCraftAI_60's_GoGo_Boing_Test_ SD0p35_JB0.mp4
+  comment: A physics-flavored go-go test where motion, feedback, and object interaction
+    collide.
+- title: Arena Rock Telemetry
+  playback_id: chatEdB02fYnGWp26jZcqNtP9lm2lycrrNqrBQjaxxFw
+  aspect: landscape
+  source_filename: PlayCraftAI_Arena_Rock_Big_Pulse_ telemetry_r00_c00_SC24_SD0p45_telemetry_preview_12fps.mp4
+  comment: A telemetry view of the Arena Rock big-pulse pass, useful for showing the
+    system signals behind the clip.
+- title: Arena Rock Big Pulse
+  playback_id: W2hPWjr1OJCeVg800V01aIi1szyfKr0080002Qtzaw01MEHvk
+  aspect: portrait
+  source_filename: PlayCraftAI_Arena_Rock_Big_Pulse_r00_c00_SC24_SD0p45.mp4
+  comment: A vertical Arena Rock clip with larger beat-driven pushes into visual transformation.
+- title: Arena Rock Faces
+  playback_id: jQRThnNmQNDbIt00GoAJaN5iPgoQir01lUbJaFemDrPfw
+  aspect: portrait
+  source_filename: PlayCraftAI_Arena_Rock_faces_r01_c00_SC12_SD0p45.mp4
+  comment: A character-heavy Arena Rock variation where the system searches through
+    faces and crowd detail.
+- title: Arena Rock People
+  playback_id: jO3jZGamMGRRj501aiR02raggY1qzDi8AHGWvNSChr7Mo
+  aspect: portrait
+  source_filename: PlayCraftAI_Arena_Rock_people_r01_c01_SC12_SD0p5.mp4
+  comment: A crowd-focused Arena Rock pass with more emphasis on bodies, silhouettes,
+    and stage energy.
+- title: Arena Rock Alt Prompt Styles
+  playback_id: TwLPTK028OyvwOKzQmCk024bV01YbK8cBdDfgWjFfwdSRs
+  aspect: portrait
+  source_filename: PlayCraftAI_alt_prompt_styles_arena_rock_r00_c00_SC24_SD0p45.mp4
+  comment: A prompt-style exploration that pushes the same Arena Rock scene through
+    dramatically different visual languages, from claymation to magazine-style 2D
+    cutout to Japanese woodblock and beyond.
+  sort_order: 25
+- title: Bronx Beat Dribble
+  playback_id: BBPCGnma1BaKjdJRwqcvKLSDH1HQ01PW8aoR02T4JGykQ
+  aspect: portrait
+  source_filename: PlayCraftAI_Bronx_Beat_dribble_r00_c01_SC24_SD0p5.mp4
+  comment: A Bronx Beat test that keeps the basketball motion readable while the image
+    keeps evolving.
+- title: Bronx Beat Small Pulse
+  playback_id: 2PibhSNSyNdAYFZPL02b51FKOA01H015kJ7AxY7wUwT7sU
+  aspect: portrait
+  source_filename: PlayCraftAI_Bronx_Beat_dribble_small_pulse_r00_c00_SC24_SD0p45.mp4
+  comment: A subtler Bronx Beat pass with smaller music pulses and more structural
+    restraint.
+- title: Bronx Beat Go-Go Maps
+  playback_id: QVkCmDlapoo4qAdoz3xHQwf8DBWkXtuZs200cLpYuxnw
+  aspect: portrait
+  source_filename: PlayCraftAI_Bronx_Beat_gogo_maps.mp4
+  comment: A map-forward Bronx Beat experiment that shows how control data shapes
+    the visual result.
+- title: Bronx Beat Telemetry
+  playback_id: gOnD2VJ02eTtYhYWHRM727V3bhQmS0262QcDhXheSZZi4
+  aspect: landscape
+  source_filename: PlayCraftAI_bronx_beat_2_r00_c01_SC24_SD0p5_telemetry_preview_12fps.mp4
+  comment: A telemetry preview for the Bronx Beat sequence, pairing the render with
+    the timing and control signals.
+- title: Arena Rock Music Sync
+  playback_id: 601JyDKDD02F1ZMUQij8YmaIa2Q02oJ18g00i7s9puASQxM
+  aspect: portrait
+  source_filename: PlayCrafAI_Area_Rock_r00_c01_SC24_SD0p5_music_sync_flash_24fps_with_audio.mp4
+  comment: A renamed Arena Rock music-sync clip with stronger descriptive naming than
+    the original render output.
+- title: Cinco de Mayo Cartoon Downbeat Punch
+  playback_id: YQaoGEwtOf6Max5IO8ddnc3z71aPM1TS8LNpzq5t41U
+  aspect: portrait
+  source_filename: PlayCraftAI_cinco_de_mayo_cartoon_downbeat_punch_r00_c00_SC24_SD0p45.mp4
+  comment: A high-energy Cinco de Mayo Daydreamer pass with stronger downbeat-driven
+    motion and a more animated folk-art direction.
+- title: Cinco de Mayo Stained Glass
+  playback_id: 202hGv02qoEW8lkVFpNLr02orJT5XHOTZHVYqOsMZf7Aro
+  aspect: portrait
+  source_filename: PlayCraftAI_cinco_de_mayo_stained_glass_r00_c00_SC24_SD0p45.mp4
+  comment: A jewel-toned stained-glass Cinco de Mayo experiment with bold outlines,
+    decorative panels, and graceful folklorico motion.
+  sort_order: 24
+- title: Cinco de Mayo Stained Glass 60fps
+  playback_id: it01rAMCJ0277DuT00cJVr2VYSz4OzsrK2jun372um5W28
+  aspect: portrait
+  source_filename: cinco_de_mayo_stained_glass_r00_c00_SC24_SD0p45_music_sync_flash_60fps.mp4
+  comment: A smoother 60fps stained-glass version of the Cinco de Mayo experiment,
+    using additional motion-warp in-between frames per hundred frames to improve motion
+    clarity while keeping the jewel-toned folk-art look.
+  sort_order: 26
+- title: He-Man Arena Rock
+  playback_id: zPCEzttCzCHBoV9v1fEOMNUbD8jfHUn9OaGoBNnpO24
+  aspect: portrait
+  source_filename: PlayCraftAI_he_man_arena_rock_r00_c00_SC24_SD0p45.mp4
+  comment: An Arena Rock variation that pushes the scene toward a muscular Saturday-morning
+    fantasy action style.
+  sort_order: 27
+- title: Cabaret Strut
+  playback_id: dqqAfajQUjWHl800BbBaZ4Y5mzsiJnmuRyOMRONLcLVI
+  aspect: portrait
+  source_filename: PlayCraftAI_cabaret_strut_patterson_r00_c01_SC22_SD0p54.mp4
+  comment: 'Inspired by the work of illustrator Russell Patterson, whose cabaret drawings
+    helped define a 1930s visual era, this Daydreamer clip is a small homage from
+    one Russell Patterson to another: a strange, dreamy cabaret ride.'
+  sort_order: 28

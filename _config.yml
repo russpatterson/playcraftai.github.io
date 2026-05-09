@@ -29,6 +29,11 @@ social_links:
 
 timezone: America/Los_Angeles
 
+collections:
+  clips:
+    output: true
+    permalink: /clips/:name/
+
 
 # Defaults for posts and pages
 defaults:
