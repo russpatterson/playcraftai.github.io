@@ -9,6 +9,37 @@ permalink: /daydreamer-clips/
 Short-form regenerative AI video experiments from PlayCraft AI. The newest clips are first. Open a clip for its high-quality Mux player, shareable URL, and experiment notes.
 
 <style>
+  .clip-feature-callout {
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    display: grid;
+    gap: 8px;
+    margin-top: 24px;
+    padding: 16px 18px;
+    background: #fafafa;
+  }
+
+  .clip-feature-callout strong {
+    color: #222;
+    display: block;
+    font-size: 1.05rem;
+  }
+
+  .clip-feature-callout span {
+    color: #555;
+    display: block;
+  }
+
+  .clip-feature-callout a {
+    color: #0645d9;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .clip-feature-callout a:hover {
+    text-decoration: underline;
+  }
+
   .clip-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -81,6 +112,12 @@ Short-form regenerative AI video experiments from PlayCraft AI. The newest clips
     overflow-wrap: anywhere;
   }
 </style>
+
+<section class="clip-feature-callout">
+  <strong>Mozart/Bach review pass</strong>
+  <span>Four vibe-bias versions of the 1700s opera-house piano clip, ready for side-by-side review.</span>
+  <a href="/daydreamer-clips/mozart-bach-vibe-bias-sweep/">Open the four-up comparison</a>
+</section>
 
 <div class="clip-grid">
   {% assign clips = site.clips | sort: "sort_order" | reverse %}
