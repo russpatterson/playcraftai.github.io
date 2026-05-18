@@ -114,6 +114,12 @@ Short-form regenerative AI video experiments from PlayCraft AI. The newest clips
 </style>
 
 <section class="clip-feature-callout">
+  <strong>Universal Monsters review pass</strong>
+  <span>Four vibe-bias versions of the classic movie monster clip, ready for side-by-side review.</span>
+  <a href="/daydreamer-clips/universal-monsters-vibe-bias-sweep/">Open the four-up comparison</a>
+</section>
+
+<section class="clip-feature-callout">
   <strong>Mozart/Bach review pass</strong>
   <span>Four vibe-bias versions of the 1700s opera-house piano clip, ready for side-by-side review.</span>
   <a href="/daydreamer-clips/mozart-bach-vibe-bias-sweep/">Open the four-up comparison</a>
