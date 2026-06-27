@@ -6,7 +6,7 @@ title: PlayCraft AI
 # Shotmaker
 
 <div style="font-size: 0.9em; color: #666; margin-top: -6px; margin-bottom: 18px;">
-Last updated: April 21, 2026 - 17:50
+Last updated: June 26, 2026 - 20:31 PDT
 </div>
 
 <img src="/assets/images/Egyptian_Temple.png" alt="Shotmaker AI-generated temple scene" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
@@ -58,4 +58,4 @@ More videos and breakdowns are coming soon.
 
 ---
 
-_Last site build: v2026.04.21b_
+_Last site build: v2026.06.26-dd_
