@@ -6,10 +6,12 @@ title: PlayCraft AI
 # Shotmaker
 
 <div style="font-size: 0.9em; color: #666; margin-top: -6px; margin-bottom: 18px;">
-Last updated: July 19, 2026 - 9:04
+Last updated: August 4, 2026 - 11:44 AM
 </div>
 
-<img src="/assets/images/Egyptian_Temple.png" alt="Shotmaker AI-generated temple scene" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+<a href="/clips/sand-temple-demo/" aria-label="Watch the Sand Temple demo video" title="Watch the Sand Temple demo video">
+  <img src="/assets/images/Egyptian_Temple.png" alt="Shotmaker AI-generated temple scene" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+</a>
 
 PlayCraft AI is now focused on **Shotmaker**, a filmmaking and storytelling tool for creating more controllable AI video.
 
