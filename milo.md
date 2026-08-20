@@ -10,12 +10,12 @@ sitemap: false
   <p>Yoga Nidra guided meditation</p>
 
   <audio controls preload="metadata" style="width: 100%;">
-    <source src="/assets/audio/Milo%27s%20Calm%20Mouth%20Yoga%20Nidra%20-music.mp3" type="audio/mpeg">
+    <source src="/assets/audio/milo-yoga-nidra.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
 
   <p>
-    <a href="/assets/audio/Milo%27s%20Calm%20Mouth%20Yoga%20Nidra%20-music.mp3" download>
+    <a href="/assets/audio/milo-yoga-nidra.mp3" download>
       Download the MP3
     </a>
   </p>
