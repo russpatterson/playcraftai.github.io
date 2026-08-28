@@ -55,30 +55,15 @@ Four short clips showing a Unity-directed shot rendered into different visual di
   <section class="demo-video">
     <div class="demo-player">
       <iframe
-        src="https://player.mux.com/b02axQhvUvETw9TeNksAgIwQW9j01xTte7tCmEzhW8g7g"
-        title="Cyberpunk - Cool Background"
+        src="https://player.mux.com/dZMkoEyVIfGVySx01egCMcY6y01f5T00SadnoPhC3dfCGs"
+        title="Control Maps - Grid"
         allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
         allowfullscreen>
       </iframe>
     </div>
     <div class="demo-caption">
-      <strong>Cyberpunk - Cool Background</strong>
-      <span>A stylized cyberpunk render of the long directed shot.</span>
-    </div>
-  </section>
-
-  <section class="demo-video">
-    <div class="demo-player">
-      <iframe
-        src="https://player.mux.com/yAW2UQexEgS41J0002qxeTOuYtuLW49hCBrDcrZaKu6W00"
-        title="Sand Temple - Dark Stylized"
-        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
-        allowfullscreen>
-      </iframe>
-    </div>
-    <div class="demo-caption">
-      <strong>Sand Temple - Dark Stylized</strong>
-      <span>A darker Sand Temple style pass using the same underlying shot structure.</span>
+      <strong>Control Maps - Grid</strong>
+      <span>A grid view of the control maps used to guide the render.</span>
     </div>
   </section>
 
@@ -100,15 +85,30 @@ Four short clips showing a Unity-directed shot rendered into different visual di
   <section class="demo-video">
     <div class="demo-player">
       <iframe
-        src="https://player.mux.com/dZMkoEyVIfGVySx01egCMcY6y01f5T00SadnoPhC3dfCGs"
-        title="Control Maps - Grid"
+        src="https://player.mux.com/yAW2UQexEgS41J0002qxeTOuYtuLW49hCBrDcrZaKu6W00"
+        title="Sand Temple - Dark Stylized"
         allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
         allowfullscreen>
       </iframe>
     </div>
     <div class="demo-caption">
-      <strong>Control Maps - Grid</strong>
-      <span>A grid view of the control maps used to guide the render.</span>
+      <strong>Sand Temple - Dark Stylized</strong>
+      <span>A darker Sand Temple style pass using the same underlying shot structure.</span>
+    </div>
+  </section>
+
+  <section class="demo-video">
+    <div class="demo-player">
+      <iframe
+        src="https://player.mux.com/b02axQhvUvETw9TeNksAgIwQW9j01xTte7tCmEzhW8g7g"
+        title="Cyberpunk - Cool Background"
+        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="demo-caption">
+      <strong>Cyberpunk - Cool Background</strong>
+      <span>A stylized cyberpunk render of the long directed shot.</span>
     </div>
   </section>
 </div>
