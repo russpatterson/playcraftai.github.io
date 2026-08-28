@@ -52,6 +52,7 @@ defaults:
 # Navigation links (minima theme)
 header_pages:
   - index.md
+  - demo.md
   - videos.md
   - daydreamer-clips.md
   - about.md
