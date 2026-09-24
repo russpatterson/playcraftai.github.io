@@ -6,7 +6,7 @@ permalink: /demo/
 
 # Shotmaker Lunch Demo
 
-Four short clips showing a Unity-directed shot rendered into different visual directions, plus the control maps used to guide the sequence.
+Five short clips showing Unity-directed shots, beat-synchronized neural rendering, and the control maps used to guide the sequence.
 
 <style>
   .demo-video-list {
@@ -52,6 +52,21 @@ Four short clips showing a Unity-directed shot rendered into different visual di
 </style>
 
 <div class="demo-video-list">
+  <section class="demo-video">
+    <div class="demo-player">
+      <iframe
+        src="https://player.mux.com/Dkg5yOFHKtqBPv2xHPWmijXENQ9t5OSdrqGVMe63eWU"
+        title="Unity Beat-Synced Neural Render"
+        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="demo-caption">
+      <strong>Unity Beat-Synced Neural Render</strong>
+      <span>A music-aware AI video experiment built with PlayCraft AI. The soundtrack is analyzed for beats, downbeats, and energy, then Unity generates synchronized dance motion, camera and mandala effects, and control maps on the same musical timeline. Those controls drive AI video generation, with each visual section changing style on the beat before being assembled back with the original audio. The result is an early end-to-end prototype: the musical synchronization and scene control work well, while human character quality still shows the limits of current AI video models.</span>
+    </div>
+  </section>
+
   <section class="demo-video">
     <div class="demo-player">
       <iframe
