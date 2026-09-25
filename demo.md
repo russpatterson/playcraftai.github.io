@@ -25,7 +25,8 @@ Five short clips showing Unity-directed shots, beat-synchronized neural renderin
     background: #111;
   }
 
-  .demo-player iframe {
+  .demo-player iframe,
+  .demo-player video {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -54,12 +55,10 @@ Five short clips showing Unity-directed shots, beat-synchronized neural renderin
 <div class="demo-video-list">
   <section class="demo-video">
     <div class="demo-player">
-      <iframe
-        src="https://player.mux.com/Dkg5yOFHKtqBPv2xHPWmijXENQ9t5OSdrqGVMe63eWU"
-        title="Unity Beat-Synced Neural Render"
-        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
-        allowfullscreen>
-      </iframe>
+      <video controls playsinline preload="metadata" aria-label="Unity Beat-Synced Neural Render">
+        <source src="{{ '/assets/videos/Music_Unity_presentation.mp4' | relative_url }}" type="video/mp4">
+        <a href="{{ '/assets/videos/Music_Unity_presentation.mp4' | relative_url }}">Download the Unity Beat-Synced Neural Render video</a>.
+      </video>
     </div>
     <div class="demo-caption">
       <strong>Unity Beat-Synced Neural Render</strong>
