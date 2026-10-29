@@ -1,0 +1,21 @@
+- id: full-pipeline
+  title: MIDI Tone Temple — Full Pipeline View
+  desktop_playback_id: "Fuw7AMnXFLBZKIU41jBx6USYmiKrk7NLy5yQKVzWvaQ"
+  mobile_playback_id: "1et7XzwWUexbfTk9K8hv9WkZZjMQqxN021hCdwC2202uc"
+  desktop_ratio: "1920 / 1080"
+  mobile_ratio: "1024 / 1844"
+  caption: "The generated video, frame-locked music analysis, and animated Unity Color, Depth, Pose, and Normal controls together."
+- id: analysis
+  title: MIDI Tone Temple — Analysis View
+  desktop_playback_id: "Uteb02Kugn1yZQWqx6Q5hpXutUVtlU4kjj2aTsKwEqb00"
+  mobile_playback_id: "KoB005Z02go92m01vRxcq9CBtkapMZV9iJp4Jv01HUTsRUc"
+  desktop_ratio: "1440 / 1080"
+  mobile_ratio: "1024 / 1820"
+  caption: "Each generated frame is paired with its matching Unity analysis frame: waveform, beat and downbeat markers, raw percussion, chord and melody MIDI lanes, and a frame-locked playhead."
+- id: clean
+  title: MIDI Tone Temple — Clean View
+  desktop_playback_id: "wOHHF01k5SllnVKFOWeGT8UezBWOkdP302zMvk9dS02Icg"
+  mobile_playback_id: "i9TS1Fuhpbw02DqWcmHyoT7JWkuDSiSa016IJQgscoa900"
+  desktop_ratio: "1024 / 576"
+  mobile_ratio: "1024 / 1820"
+  caption: "The same music-reactive sequence without diagnostic overlays. Landscape and phone editions are separate presentation outputs of the original artistic master."

@@ -34,18 +34,6 @@ A music-reactive visual experiment driven by exported MIDI, beat analysis, and d
     border: 0;
   }
 
-  .demo-player-portrait {
-    aspect-ratio: 1024 / 1820;
-    padding-top: 0;
-    width: 100%;
-    max-width: 440px;
-    margin-inline: auto;
-  }
-
-  .demo-player-clean {
-    max-width: 360px;
-  }
-
   .demo-caption {
     margin-top: 10px;
     text-align: center;
@@ -64,36 +52,17 @@ A music-reactive visual experiment driven by exported MIDI, beat analysis, and d
   }
 </style>
 
-<div class="demo-video-list" id="midi-tone-temple">
-  <section class="demo-video" aria-labelledby="midi-analysis-heading">
-    <h2 id="midi-analysis-heading">MIDI Tone Temple — Analysis View</h2>
-    <div class="demo-player demo-player-portrait">
-      <iframe
-        src="https://player.mux.com/KoB005Z02go92m01vRxcq9CBtkapMZV9iJp4Jv01HUTsRUc"
-        title="MIDI Tone Temple — Analysis View"
-        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
-        allowfullscreen>
-      </iframe>
-    </div>
-    <div class="demo-caption">
-      <span>The diagnostic view pairs each generated video frame with its matching Unity analysis frame. The strip shows the waveform, beat and downbeat markers, raw percussion, chord and melody MIDI lanes, and a frame-locked playhead.</span>
-    </div>
-  </section>
+<link rel="stylesheet" href="{{ '/assets/responsive-mux.css' | relative_url }}">
+<script src="{{ '/assets/js/responsive-mux.js' | relative_url }}" defer></script>
 
-  <section class="demo-video" aria-labelledby="midi-clean-heading">
-    <h2 id="midi-clean-heading">MIDI Tone Temple — Clean View</h2>
-    <div class="demo-player demo-player-portrait demo-player-clean">
-      <iframe
-        src="https://player.mux.com/i9TS1Fuhpbw02DqWcmHyoT7JWkuDSiSa016IJQgscoa900"
-        title="MIDI Tone Temple — Clean View"
-        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
-        allowfullscreen>
-      </iframe>
-    </div>
-    <div class="demo-caption">
-      <span>The same music-reactive sequence without the analysis strip, for viewing the final composition.</span>
-    </div>
+<div class="demo-video-list" id="midi-tone-temple">
+{% for video in site.data.midi_tone_temple %}
+  <section class="demo-video" aria-labelledby="midi-{{ video.id }}-heading">
+    <h2 id="midi-{{ video.id }}-heading">{{ video.title }}</h2>
+    {% include responsive-mux.html video=video %}
+    <div class="demo-caption"><span>{{ video.caption }}</span></div>
   </section>
+{% endfor %}
 </div>
 
 ## How it was made

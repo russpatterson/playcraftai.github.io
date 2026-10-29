@@ -1,0 +1,11 @@
+{% assign video = include.video %}
+<div class="responsive-mux" data-desktop-playback-id="{{ video.desktop_playback_id | escape }}" data-mobile-playback-id="{{ video.mobile_playback_id | escape }}" data-title="{{ video.title | escape }}" style="--desktop-ratio: {{ video.desktop_ratio | escape }}; --mobile-ratio: {{ video.mobile_ratio | escape }};">
+  <div class="responsive-mux__frame"></div>
+  <p class="responsive-mux__status" role="status">Loading video for your screen size…</p>
+  <noscript>
+    <p>JavaScript is needed for automatic video selection.
+      {% if video.desktop_playback_id != empty %}<a href="https://player.mux.com/{{ video.desktop_playback_id | escape }}">View landscape version</a>{% endif %}
+      {% if video.mobile_playback_id != empty %}<a href="https://player.mux.com/{{ video.mobile_playback_id | escape }}">View phone version</a>{% endif %}
+    </p>
+  </noscript>
+</div>
