@@ -11,7 +11,16 @@ permalink: /from-prompt-roulette-to-directable-ai-video/
 <link rel="stylesheet" href="{{ '/assets/responsive-mux.css' | relative_url }}">
 <script src="{{ '/assets/js/responsive-mux.js' | relative_url }}" defer></script>
 
+<p style="margin: 0 0 16px;">
+  <img src="{{ '/assets/images/russpatterson.jpg' | relative_url }}" alt="Russ Patterson" width="64" height="64" style="width: 64px; height: 64px; border-radius: 50%; object-fit: cover;">
+</p>
+
 When I started working on [PlayCraft AI]({{ '/' | relative_url }}), one of the ideas I kept coming back to was that generative video has an amazing rendering engine, but not a very good control system.
+
+{% assign clean_demo = site.data.midi_tone_temple | where: 'id', 'clean' | first %}
+{% include responsive-mux.html video=clean_demo %}
+
+*Final neural render driven by deterministic Unity timing and MIDI-controlled geometry.*
 
 You can type a prompt, give it an image, try different seeds and settings, and sometimes get something incredible. But if you know exactly what you want the camera to do, exactly where you want something in 3D space, exactly when something should move, or exactly how it should line up with music, it can start to feel like prompt roulette.
 
@@ -46,11 +55,6 @@ So instead of telling a video model something vague like "make the glowing bars 
 Unity can then render the information the neural renderer needs: the normal color image, depth, pose, surface normals and other control information.
 
 The neural renderer gets to do what it is good at—turning that structure into a different visual world.
-
-{% assign clean_demo = site.data.midi_tone_temple | where: 'id', 'clean' | first %}
-{% include responsive-mux.html video=clean_demo %}
-
-*Final neural render driven by deterministic Unity timing and MIDI-controlled geometry.*
 
 ## Showing the Machinery
 
