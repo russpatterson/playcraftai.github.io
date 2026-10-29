@@ -4,9 +4,9 @@ title: Demo
 permalink: /demo/
 ---
 
-# Shotmaker Lunch Demo
+# MIDI Tone Temple Demo
 
-Five short clips showing Unity-directed shots, beat-synchronized neural rendering, and the control maps used to guide the sequence.
+A music-reactive visual experiment driven by exported MIDI, beat analysis, and deterministic Unity control geometry. The focus is synchronization: actual music structure drives the geometry around the performers. Human-character rendering is still imperfect and experimental.
 
 <style>
   .demo-video-list {
@@ -34,6 +34,18 @@ Five short clips showing Unity-directed shots, beat-synchronized neural renderin
     border: 0;
   }
 
+  .demo-player-portrait {
+    aspect-ratio: 1024 / 1820;
+    padding-top: 0;
+    width: 100%;
+    max-width: 440px;
+    margin-inline: auto;
+  }
+
+  .demo-player-clean {
+    max-width: 360px;
+  }
+
   .demo-caption {
     margin-top: 10px;
     text-align: center;
@@ -51,6 +63,49 @@ Five short clips showing Unity-directed shots, beat-synchronized neural renderin
     max-width: 680px;
   }
 </style>
+
+<div class="demo-video-list" id="midi-tone-temple">
+  <section class="demo-video" aria-labelledby="midi-analysis-heading">
+    <h2 id="midi-analysis-heading">MIDI Tone Temple — Analysis View</h2>
+    <div class="demo-player demo-player-portrait">
+      <iframe
+        src="https://player.mux.com/KoB005Z02go92m01vRxcq9CBtkapMZV9iJp4Jv01HUTsRUc"
+        title="MIDI Tone Temple — Analysis View"
+        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="demo-caption">
+      <span>The diagnostic view pairs each generated video frame with its matching Unity analysis frame. The strip shows the waveform, beat and downbeat markers, raw percussion, chord and melody MIDI lanes, and a frame-locked playhead.</span>
+    </div>
+  </section>
+
+  <section class="demo-video" aria-labelledby="midi-clean-heading">
+    <h2 id="midi-clean-heading">MIDI Tone Temple — Clean View</h2>
+    <div class="demo-player demo-player-portrait demo-player-clean">
+      <iframe
+        src="https://player.mux.com/i9TS1Fuhpbw02DqWcmHyoT7JWkuDSiSa016IJQgscoa900"
+        title="MIDI Tone Temple — Clean View"
+        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="demo-caption">
+      <span>The same music-reactive sequence without the analysis strip, for viewing the final composition.</span>
+    </div>
+  </section>
+</div>
+
+## How it was made
+
+1. Compose a short section in Ableton Live and export the audio plus separate melody, chord, and percussion MIDI tracks.
+2. Import them into the PlayCraft AI / Unity Music-Aware workflow. MIDI note values drive visible geometry vertically around the performers; beat analysis and a manually verified first downbeat keep the visual timeline aligned with the music.
+3. Capture deterministic control-map sequences from Unity, then use the existing AI video pipeline to render the stylized sequence.
+4. Export the frame-accurate analysis strip separately from Unity and composite it beneath the generated video. Both use the same 24 FPS frame clock; the exported audio starts at time zero.
+
+## Earlier Shotmaker demos
+
+Unity-directed shots, beat-synchronized neural rendering, and the control maps used to guide the sequence.
 
 <div class="demo-video-list">
   <section class="demo-video">
