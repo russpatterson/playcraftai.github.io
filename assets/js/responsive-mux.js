@@ -1,14 +1,14 @@
 /* One iframe per demo: inactive formats never receive a player URL. */
 (() => {
-  const narrow = window.matchMedia('(max-width: 767px)');
+  const portraitPhone = window.matchMedia('(max-width: 767px) and (orientation: portrait)');
   document.querySelectorAll('.responsive-mux').forEach((host) => {
     const frame = host.querySelector('.responsive-mux__frame');
     const status = host.querySelector('.responsive-mux__status');
     let activeId = null;
     let timeout;
     function update() {
-      const mode = narrow.matches ? 'phone' : 'landscape';
-      const id = narrow.matches ? host.dataset.mobilePlaybackId : host.dataset.desktopPlaybackId;
+      const mode = portraitPhone.matches ? 'phone' : 'landscape';
+      const id = portraitPhone.matches ? host.dataset.mobilePlaybackId : host.dataset.desktopPlaybackId;
       if (id && id === activeId) return;
       clearTimeout(timeout);
       // Removing the previous browsing context stops its playback and requests.
@@ -28,7 +28,7 @@
       player.addEventListener('load', () => {
         if (frame.firstElementChild !== player) return;
         clearTimeout(timeout);
-        status.textContent = `${mode === 'phone' ? 'Phone' : 'Landscape'} view · selected for your screen width`;
+        status.textContent = `${mode === 'phone' ? 'Phone' : 'Landscape'} view · selected for your screen size and orientation`;
       });
       player.addEventListener('error', () => {
         if (frame.firstElementChild !== player) return;
@@ -40,7 +40,7 @@
         if (frame.firstElementChild === player) status.textContent = 'Video is taking longer to load. Check your connection or reload to retry.';
       }, 20000);
     }
-    narrow.addEventListener('change', update);
+    portraitPhone.addEventListener('change', update);
     update();
   });
 })();
